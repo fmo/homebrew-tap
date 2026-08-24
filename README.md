@@ -1,18 +1,25 @@
-# Fmo Tap
+# Homebrew Tap
 
-## How do I install these formulae?
+Homebrew formulae maintained by [fmo](https://github.com/fmo).
 
-`brew install fmo/tap/<formula>`
+## Install SkyTUI
 
-Or `brew tap fmo/tap` and then `brew install <formula>`.
-
-Or, in a `brew bundle` `Brewfile`:
-
-```ruby
-tap "fmo/tap"
-brew "<formula>"
+```sh
+brew install fmo/tap/skytui
 ```
 
-## Documentation
+Upgrade to the latest release:
 
-`brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
+```sh
+brew update
+brew upgrade skytui
+```
+
+Uninstall SkyTUI:
+
+```sh
+brew uninstall skytui
+```
+
+See the [SkyTUI repository](https://github.com/fmo/skytui) for usage and
+configuration.
