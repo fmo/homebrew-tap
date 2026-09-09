@@ -5,13 +5,13 @@ class Skytui < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/fmo/skytui/releases/download/v1.1.0/skytui_1.1.0_darwin_arm64.tar.gz"
-      sha256 "0999d5a3dbf2c3224ce9dd0665c9f793e21b7abe6ab20e43d330951f72102497"
+      url "https://github.com/fmo/skytui/releases/download/v1.2.0/skytui_1.2.0_darwin_arm64.tar.gz"
+      sha256 "c4f2c8b3b38bafc6d81aa1dffb45563ce5cdda0f657983c249763a8c06e8d552"
     end
 
     on_intel do
-      url "https://github.com/fmo/skytui/releases/download/v1.1.0/skytui_1.1.0_darwin_amd64.tar.gz"
-      sha256 "90916d6ea885ada7643c42bf85d6451f5fb9f6cc9bf6576da40774d3c7aec0f6"
+      url "https://github.com/fmo/skytui/releases/download/v1.2.0/skytui_1.2.0_darwin_amd64.tar.gz"
+      sha256 "180015d620f947ec65f4edc70e28ef5705af458e4c1745427d65888ebb123ac8"
     end
   end
 
@@ -19,13 +19,13 @@ class Skytui < Formula
     depends_on "libnotify"
 
     on_arm do
-      url "https://github.com/fmo/skytui/releases/download/v1.1.0/skytui_1.1.0_linux_arm64.tar.gz"
-      sha256 "473cac92a1dadf18875e0b616906b474400a254ad41b0028bfcb1bc46b5d3731"
+      url "https://github.com/fmo/skytui/releases/download/v1.2.0/skytui_1.2.0_linux_arm64.tar.gz"
+      sha256 "552c592de6be56adba599a504f48aefc0ac5ac94744995af51365593c17fc27f"
     end
 
     on_intel do
-      url "https://github.com/fmo/skytui/releases/download/v1.1.0/skytui_1.1.0_linux_amd64.tar.gz"
-      sha256 "a86f8c423dacf87132efc13d390221db8d3b12a873f3b46819548391edaca752"
+      url "https://github.com/fmo/skytui/releases/download/v1.2.0/skytui_1.2.0_linux_amd64.tar.gz"
+      sha256 "1f5bb7ded51921b339de47e6248da9b24733a15e86f9ba5694b6a3dd772a9007"
     end
   end
 
